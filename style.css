@@ -53,3 +53,13 @@ button{
     margin: auto;
     background-color: rgb(223, 221, 221);
 }
+
+p{
+    text-align: center;
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
