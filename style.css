@@ -5,13 +5,12 @@
 
 main{
     width: 100%;
-    background-color: rgb(234, 161, 234);
+    background-color: rgb(252, 204, 252);
 }
 
-form{
-    width: 80%;
+.container{
+    width: 60%;
     height: 500px;
-    display: flex;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
@@ -27,4 +26,30 @@ header{
 h1{
     text-align: center;
     margin-top: 15px;
+}
+
+form{
+    padding: 20px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 3px;
+    outline: none;
+    border: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+button{
+    width: 90%;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    background-color: rgb(223, 221, 221);
 }
